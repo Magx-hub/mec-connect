@@ -31,6 +31,51 @@ A school portal for MagMax Educational Centre using React Native Expo 53+
   JavaScript
   Check the package.json
 
+  {
+  "name": "magx-app",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "description": "MEC Connect",
+  "author": "Blakk Systems",
+  "license": "MIT",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-community/datetimepicker": "8.4.1",
+    "@react-native-picker/picker": "^2.11.1",
+    "@react-navigation/native": "^7.1.14",
+    "expo": "^53.0.19",
+    "expo-constants": "^17.1.7",
+    "expo-linking": "^7.1.7",
+    "expo-print": "^14.1.4",
+    "expo-router": "^5.1.3",
+    "expo-sharing": "^13.1.5",
+    "expo-splash-screen": "^0.30.10",
+    "expo-status-bar": "^2.2.3",
+    "firebase": "^11.10.0",
+    "nativewind": "^4.1.23",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "^4.11.1",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "prettier-plugin-tailwindcss": "0.5.11",
+    "tailwindcss": "3.4.17"
+  },
+  "private": true
+}
+
+
   
 
 🧩 Attendance Management UI Features
